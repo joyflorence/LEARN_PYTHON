@@ -31,5 +31,10 @@ for student in students:
 
 print("Queue size:", queue.queue_size())
 
+print("\nServing students:")
+while not queue.is_empty():
+    queue.dequeue()
+
+print("Queue size:", queue.queue_size())
 
 
